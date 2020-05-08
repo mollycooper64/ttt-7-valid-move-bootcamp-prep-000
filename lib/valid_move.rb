@@ -2,18 +2,12 @@
 def valid_move?(board, index)
 
 #if index is 0-8 = true
-if index.between?(0,8)
+if index = be_between?(0,8)
   true
 else
   nil
 end
 
-if position_taken?
-#if position? = true then return true
-false
-else
-  true
-end
 #board[index].between?(0,8) == true && position_taken?
 
 end
