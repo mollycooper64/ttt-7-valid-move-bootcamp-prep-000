@@ -8,9 +8,8 @@ end
 
 if position_taken?(board, index)
   false
-else
-  nil
 end
+
 end
 
 
