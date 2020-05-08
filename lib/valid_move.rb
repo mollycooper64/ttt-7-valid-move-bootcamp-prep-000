@@ -7,12 +7,14 @@ if index.between?(0,8)
 else
   nil
 end
+
+if position_taken?
 #if position? = true then return true
-
+false
+else
+  true
+end
 #board[index].between?(0,8) == true && position_taken?
-
-
-
 
 end
 
