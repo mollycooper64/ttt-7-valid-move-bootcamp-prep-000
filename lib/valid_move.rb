@@ -8,7 +8,7 @@ else
   nil
 end
 
-if position_taken?
+if position_taken?(board, index)
   false
 else
   nil
