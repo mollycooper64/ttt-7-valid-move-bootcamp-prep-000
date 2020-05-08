@@ -4,7 +4,7 @@ def valid_move?(board, index)
 #if index is 0-8 = true
 #if position? = true then return true
 
-board[index].between(0,8) = true
+board[index].between?(0,8) == true
 
 
 
