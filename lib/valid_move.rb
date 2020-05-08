@@ -3,7 +3,7 @@ def valid_move?(board, index)
 
 #returns true for a valid position on an empty board
 board[index] == be_between?(0,8) && !position_taken?
-
+true
 end
 
 
